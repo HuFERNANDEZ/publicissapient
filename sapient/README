@@ -1,0 +1,15 @@
+# how to launch the project : 
+-- docker up and running is a prerequisite 
+docker-compose up
+
+ # tondeuse projet 
+ toolkit : calcule la valeur de l'attractivité en réutilisant les modéles définis dans le notebook
+ schemas : pour utiliser la validation et pour la doc automatique
+ 
+ #opération possible : 
+ attractiveness-post : retourne l'attractivité d'une tondeuse en fonction de ses charactéristiques
+
+ # méthode de test 
+ une fois que le docker est up : localhost:8000/docs 
+ Il est possible d'utiliser un outil comme postman pour envoyer des requête post sur localhost:8000/attractiveness, ce qui renverra l'objet avec son attractivité (voir documentation ci dessus)
+

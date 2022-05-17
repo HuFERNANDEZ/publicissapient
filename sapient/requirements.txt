@@ -1,0 +1,7 @@
+fastapi
+typing
+typing_extensions
+pydantic
+uvicorn
+python-multipart
+
