@@ -18,5 +18,6 @@ class Mower(BaseModel):
     quality: Literal["Low", "Medium", "Hight"]
     warranty: str
 
+
 class MowerAttractiveness(Mower):
     attractiveness: float
